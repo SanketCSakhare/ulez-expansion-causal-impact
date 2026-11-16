@@ -1,0 +1,60 @@
+{
+  "window": "2022-09 to 2024-08",
+  "policy_month": "2023-09",
+  "mean_no2_ugm3": {
+    "inner": {
+      "pre": 29.23,
+      "post": 25.6
+    },
+    "outer": {
+      "pre": 22.11,
+      "post": 19.36
+    }
+  },
+  "did_levels_ugm3": {
+    "estimate": 0.41,
+    "ci95": [
+      -2.353,
+      3.174
+    ],
+    "p_value": 0.771,
+    "sites": 28,
+    "treated_sites": 10,
+    "obs": 638
+  },
+  "did_log_points": {
+    "estimate": -0.001,
+    "ci95": [
+      -0.086,
+      0.085
+    ],
+    "p_value": 0.9874,
+    "sites": 28,
+    "treated_sites": 10,
+    "obs": 638
+  },
+  "did_roadside_only_ugm3": {
+    "estimate": -0.224,
+    "ci95": [
+      -4.244,
+      3.797
+    ],
+    "p_value": 0.9132,
+    "sites": 19,
+    "treated_sites": 6,
+    "obs": 442
+  },
+  "pre_trend": {
+    "gap_drift_ugm3_per_month": 0.038,
+    "p_value": 0.7717
+  },
+  "sites_by_group_and_type": {
+    "inner / Kerbside": 3,
+    "inner / Roadside": 10,
+    "inner / Urban Background": 5,
+    "outer / Kerbside": 1,
+    "outer / Roadside": 5,
+    "outer / Suburban": 3,
+    "outer / Urban Background": 1
+  }
+}
